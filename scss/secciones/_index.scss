@@ -1,0 +1,49 @@
+body{
+    background-color: $fondoBody;
+}
+
+
+
+
+main{
+    background-color: $fondoBody;
+    .card-group{
+        margin: 5rem;
+        border-radius: solid $colorPrincipal;
+        .card{
+            background-color: $colorCard;
+            div.card-body{
+                background-color: $colorCard;
+                .card-title{
+                    color: $colorPrincipal;
+                }
+                .card-text{
+                    color: aliceblue;
+                }
+                button.btn.btn-primary{
+                    color: $ColorPrincioal2;
+                    background-color: $colorPrincipal;
+                    border: solid $colorPrincipal;
+                }
+            }
+        }
+    }
+    .titulos{
+        text-align: center;
+        color: rgb(27, 27, 27);
+        margin-top: 2rem;
+    }
+    .pMain{
+        @extend %estiloParrafo;
+        @include fontStyle (rgb(30, 30, 30))
+    }
+   
+   
+   
+}
+
+
+
+
+
+

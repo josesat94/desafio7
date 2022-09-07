@@ -1,0 +1,22 @@
+.mainNosotros{
+    width: 100vw;
+    .card1Container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        flex-direction: column;
+        h3{
+           margin: 1rem;
+           padding: 2rem;
+           font-style: italic;
+        }
+        h5.card-title{
+            color: $colorPrincipal;
+        }
+
+    }
+   
+    
+}
+

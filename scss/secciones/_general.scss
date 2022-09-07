@@ -1,0 +1,122 @@
+body{
+    background-color: $fondoBody;
+}
+
+header{
+    background-color: $ColorPrincioal2;
+    .bg-light{
+    }
+    .navbar.navbar-expand-lg{
+        .container-fluid{
+            .collapse.navbar-collapse{
+                .navbar-nav.me-auto.mb-2.mb-lg-0{
+                    .nav-item{
+                        .nav-link.active{
+                            color: $colorPrincipal;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+    }
+    
+    
+    
+    
+
+    
+    
+   
+    .carousel{
+        .carousel-inner{
+            .carousel-item{
+                .carousel-caption{
+                    h1{
+                        color: rgb(255, 255, 255);
+                        text-align: center;
+                        margin-top: 1rem;
+                        margin-bottom: 3rem;
+                        font-weight: 800;
+                        font-size: 320%;
+                    }
+
+                }
+            }
+        }
+    }
+    
+    nav{
+        border-bottom: solid $colorPrincipal;
+        a{
+            img{
+                width: 15%;
+                margin-left: 3rem;
+            }
+        }
+        .nav-link{
+            color: aliceblue;
+        }
+        .btnIngresa{
+            background-color: $colorPrincipal;
+            border-radius: 10px;
+        }
+    }
+    
+    button.btnCar{
+        background-color: rgb(190, 209, 213);
+            border-radius: 10px;
+            .res{
+                margin: 5px;
+            }
+    
+        }
+    
+    }
+    
+
+
+.titulos{
+    text-align: center;
+    color: rgb(27, 27, 27);
+    margin: 1rem;
+}
+
+footer{
+    border-top: solid $colorPrincipal;
+    .col1container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+        a{
+            text-decoration: none;
+        }
+    }
+    .container-fluid{
+        div{
+            a{
+                .imgIg{
+                    width: 12%;
+                }
+            }
+            a{
+                .imgFb{
+                    width: 9%;
+                }
+            }
+            a{
+                .imgTw{
+                    width: 7%;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+
+}

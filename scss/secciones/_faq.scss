@@ -1,0 +1,18 @@
+.mainFaq{
+    
+    align-items: center;
+    justify-content: center;
+    background-color: $fondoBody;
+    .accordion{
+        width: 50%;
+        margin: 6rem auto;
+    }
+    
+    .pFaq{
+        @extend %estiloParrafo;
+        @include fontStyle (rgb(0, 101, 121))
+        
+    }
+    
+}
+

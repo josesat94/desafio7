@@ -1,0 +1,6 @@
+@mixin fontStyle ($colorPrincipal) {
+    background-color: $colorPrincipal;
+    color: aliceblue;
+    padding: 2rem;
+    border-radius: 5px;
+}

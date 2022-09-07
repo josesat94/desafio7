@@ -1,0 +1,52 @@
+header{
+    .navbar.navbar-expand-lg{
+        .container-fluid{
+            .collapse.navbar-collapse{
+                .navbar-nav.me-auto.mb-2.mb-lg-0{
+                    .nav-item{
+                        .nav-link.active.ingresa{
+                            color: $ColorPrincioal2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.mainIngresa{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $fondoBody;
+    form{
+        margin: 1rem;
+        padding: 2rem;
+        font-size: 20px;
+        border: solid $colorPrincipal;
+        border-radius: 5px;
+        background-color: rgb(27, 27, 27);
+        h3{
+            margin: 2rem;
+            text-align: center;
+            color: aliceblue;
+        }
+        .btn{
+            background-color: $colorPrincipal;
+            border-radius: 10px;
+        }
+        .btn-primary{
+            border: solid $colorPrincipal;
+        }
+        div .form-label{
+            color: aliceblue;
+        }
+        div .form-check-label{
+            color: aliceblue;
+        }
+    }
+    
+}
+

@@ -16,21 +16,29 @@ main .pMain, .mainFaq .pFaq {
   color: #1b1b1b;
   font-style: italic; }
 
+h1 {
+  text-shadow: 2px 2px 4px #262626; }
+
 /*PARTIALS*/
 body {
   background-color: #bed1d5; }
 
 header {
   background-color: #1b1b1b; }
+  header .navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse .navbar-nav.me-auto.mb-2.mb-lg-0 .nav-item:hover {
+    border-radius: 100px;
+    background-color: rgba(109, 129, 155, 0.8); }
   header .navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse .navbar-nav.me-auto.mb-2.mb-lg-0 .nav-item .nav-link.active {
     color: #00a4c1; }
-  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
-    color: white;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-    font-weight: 800;
-    font-size: 320%; }
+  header .carousel {
+    border-bottom: solid #00a4c1; }
+    header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+      color: white;
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      font-weight: 800;
+      font-size: 320%; }
   header nav {
     border-bottom: solid #00a4c1; }
     header nav a img {
@@ -91,11 +99,16 @@ main {
           color: #1b1b1b;
           background-color: #00a4c1;
           border: solid #00a4c1; }
+          main .card-group .card div.card-body button.btn.btn-primary:hover {
+            background-color: rgba(109, 129, 155, 0.8);
+            border: solid rgba(109, 129, 155, 0.8);
+            color: aliceblue; }
   main .titulos {
     text-align: center;
     color: #1b1b1b;
     margin-top: 2rem; }
   main .pMain {
+    border: solid #00a4c1;
     background-color: #1e1e1e;
     color: aliceblue;
     padding: 2rem;
@@ -115,6 +128,10 @@ main {
       font-style: italic; }
     .mainNosotros .card1Container h5.card-title {
       color: #00a4c1; }
+    .mainNosotros .card1Container .card.mb-3:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-5%);
+      transition: all 400ms ease; }
 
 .mainFaq {
   align-items: center;
@@ -144,12 +161,16 @@ main {
     .mainRegistrate .formRegistrate h3 {
       margin: 2rem;
       text-align: center;
-      color: aliceblue; }
+      color: #00a4c1; }
     .mainRegistrate .formRegistrate .btn {
       background-color: #00a4c1;
       border-radius: 10px; }
     .mainRegistrate .formRegistrate .btn-primary {
       border: solid #00a4c1; }
+    .mainRegistrate .formRegistrate .btn.btn-primary:hover {
+      background-color: rgba(109, 129, 155, 0.8);
+      border: solid rgba(109, 129, 155, 0.8);
+      color: aliceblue; }
     .mainRegistrate .formRegistrate div .form-label {
       color: aliceblue; }
     .mainRegistrate .formRegistrate div .form-check-label {
@@ -174,12 +195,16 @@ header .navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse .navb
     .mainIngresa form h3 {
       margin: 2rem;
       text-align: center;
-      color: aliceblue; }
+      color: #00a4c1; }
     .mainIngresa form .btn {
       background-color: #00a4c1;
       border-radius: 10px; }
     .mainIngresa form .btn-primary {
       border: solid #00a4c1; }
+    .mainIngresa form .btn.btn-primary:hover {
+      background-color: rgba(109, 129, 155, 0.8);
+      border: solid rgba(109, 129, 155, 0.8);
+      color: aliceblue; }
     .mainIngresa form div .form-label {
       color: aliceblue; }
     .mainIngresa form div .form-check-label {

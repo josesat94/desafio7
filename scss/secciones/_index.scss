@@ -2,9 +2,6 @@ body{
     background-color: $fondoBody;
 }
 
-
-
-
 main{
     background-color: $fondoBody;
     .card-group{
@@ -24,6 +21,11 @@ main{
                     color: $ColorPrincioal2;
                     background-color: $colorPrincipal;
                     border: solid $colorPrincipal;
+                    &:hover{
+                        background-color: rgba(109, 129, 155, 0.8);
+                        border: solid rgba(109, 129, 155, 0.8);
+                        color: aliceblue;
+                    }
                 }
             }
         }
@@ -33,14 +35,17 @@ main{
         color: rgb(27, 27, 27);
         margin-top: 2rem;
     }
+
     .pMain{
+        border: solid $colorPrincipal;
         @extend %estiloParrafo;
         @include fontStyle (rgb(30, 30, 30))
     }
-   
-   
-   
+
+
 }
+
+   
 
 
 

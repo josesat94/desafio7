@@ -2,6 +2,10 @@ body{
     background-color: $fondoBody;
 }
 
+h1{
+    @extend %sombra
+}
+
 header{
     background-color: $ColorPrincioal2;
     .bg-light{
@@ -11,6 +15,10 @@ header{
             .collapse.navbar-collapse{
                 .navbar-nav.me-auto.mb-2.mb-lg-0{
                     .nav-item{
+                        &:hover{
+                            border-radius: 100px;
+                            background-color: rgba(109, 129, 155, 0.8);
+                        }
                         .nav-link.active{
                             color: $colorPrincipal;
                         }
@@ -20,14 +28,8 @@ header{
         }
     }
     
-    
-    
-    
-
-    
-    
-   
     .carousel{
+        border-bottom: solid $colorPrincipal;
         .carousel-inner{
             .carousel-item{
                 .carousel-caption{
@@ -94,6 +96,7 @@ footer{
             text-decoration: none;
         }
     }
+    
     .container-fluid{
         div{
             a{
@@ -114,5 +117,4 @@ footer{
             }
         }
     }
-
 }

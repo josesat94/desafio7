@@ -8,6 +8,11 @@ main{
         margin: 5rem;
         border-radius: solid $colorPrincipal;
         .card{
+            &:hover{
+                box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+                transform: translateY(-5%);
+                transition: all 400ms ease;
+            }
             background-color: $colorCard;
             div.card-body{
                 background-color: $colorCard;

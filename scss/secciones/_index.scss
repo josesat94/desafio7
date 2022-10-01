@@ -46,11 +46,66 @@ main{
         @extend %estiloParrafo;
         @include fontStyle (rgb(30, 30, 30))
     }
+    .containerGeneral{
+        margin: 5rem auto;
+        width: 47vw;
+        .containerGrid{
+            border: solid $colorPrincipal;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            .imgGrid{
+                width: 35%;
+            }
+        }
+    }
+    .containerGrid {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "calidad seguridad diversion";
+        padding: 1rem;
+      }
+      .calidad {
+        grid-area: calidad;
+        .tituloGrid{
+            margin: 0 auto;
+        }
+    }
+      .seguridad {
+        grid-area: seguridad;
+        .tituloGrid{
+            margin: 0 auto;  
+        }
+    }
+
+      .diversion {
+        grid-area: diversion;
+        .tituloGrid{
+            margin: 0 auto;  
+    }
+
+    }
+
+    }
 
 
-}
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width:575px) {
+    .containerGrid {
+        display: flex;
+        flex-direction: column;
+        }
+    }
 
-   
+
+ 
 
 
 

@@ -117,6 +117,45 @@ main {
     color: aliceblue;
     padding: 2rem;
     border-radius: 5px; }
+  main .containerGeneral {
+    margin: 5rem auto;
+    width: 47vw; }
+    main .containerGeneral .containerGrid {
+      border: solid #00a4c1;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center; }
+      main .containerGeneral .containerGrid .imgGrid {
+        width: 35%; }
+  main .containerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "calidad seguridad diversion";
+    padding: 1rem; }
+  main .calidad {
+    grid-area: calidad; }
+    main .calidad .tituloGrid {
+      margin: 0 auto; }
+  main .seguridad {
+    grid-area: seguridad; }
+    main .seguridad .tituloGrid {
+      margin: 0 auto; }
+  main .diversion {
+    grid-area: diversion; }
+    main .diversion .tituloGrid {
+      margin: 0 auto; }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 575px) {
+  .containerGrid {
+    display: flex;
+    flex-direction: column; } }
 
 .mainNosotros {
   width: 100vw; }
@@ -213,3 +252,5 @@ header .navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse .navb
       color: aliceblue; }
     .mainIngresa form div .form-check-label {
       color: aliceblue; }
+
+/*MEDIA QUERYS*/

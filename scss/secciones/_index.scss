@@ -116,9 +116,56 @@ main{
         padding: 1rem;
       }  
     }
-    
-    
     }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width:767px) {
+    header{
+      .carousel{
+        .carousel-inner{
+            .carousel-item{
+                .carousel-caption{
+                    h1{
+                        color: rgb(255, 255, 255);
+                        text-align: center;
+                        margin-bottom: 0;
+                        font-weight: 800;
+                        font-size: 200%;
+                    }
+
+                }
+            }
+        }
+    }  
+    }
+    
+        }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 486px---------------------*/
+@media (max-width:486px) {
+    header{
+      .carousel{
+        .carousel-inner{
+            .carousel-item{
+                .carousel-caption{
+                    h1{
+                        color: rgb(255, 255, 255);
+                        text-align: center;
+                        margin-bottom: 0;
+                        font-weight: 800;
+                        font-size: 100%;
+                    }
+                    p{
+                        font-size: 70%;
+                    }
+
+                }
+            }
+        }
+    }  
+    }
+    
+        }
 
 
  

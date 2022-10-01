@@ -163,6 +163,26 @@ main {
     grid-template-areas: "calidad" "seguridad" "diversion";
     padding: 1rem; } }
 
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 767px) {
+  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 200%; } }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 486px---------------------*/
+@media (max-width: 486px) {
+  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 100%; }
+  header .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 70%; } }
+
 .mainNosotros {
   width: 100vw; }
   .mainNosotros .card1Container {
@@ -182,6 +202,38 @@ main {
       transform: translateY(-5%);
       transition: all 400ms ease; }
 
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 575px) {
+  main .containerGeneral .containerGrid {
+    display: flex;
+    flex-direction: column; }
+  main .containerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "calidad" "seguridad" "diversion";
+    padding: 1rem; } }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 767px) {
+  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 200%; } }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 486px---------------------*/
+@media (max-width: 486px) {
+  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 100%; }
+  header .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 70%; } }
+
 .mainFaq {
   align-items: center;
   justify-content: center;
@@ -194,6 +246,38 @@ main {
     color: aliceblue;
     padding: 2rem;
     border-radius: 5px; }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 575px) {
+  main .containerGeneral .containerGrid {
+    display: flex;
+    flex-direction: column; }
+  main .containerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "calidad" "seguridad" "diversion";
+    padding: 1rem; } }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 767px) {
+  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 200%; } }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 486px---------------------*/
+@media (max-width: 486px) {
+  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 100%; }
+  header .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 70%; } }
 
 .mainRegistrate {
   display: flex;
@@ -224,6 +308,38 @@ main {
       color: aliceblue; }
     .mainRegistrate .formRegistrate div .form-check-label {
       color: aliceblue; }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 575px) {
+  main .containerGeneral .containerGrid {
+    display: flex;
+    flex-direction: column; }
+  main .containerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "calidad" "seguridad" "diversion";
+    padding: 1rem; } }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 767px) {
+  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 200%; } }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 486px---------------------*/
+@media (max-width: 486px) {
+  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 100%; }
+  header .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 70%; } }
 
 header .navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse .navbar-nav.me-auto.mb-2.mb-lg-0 .nav-item .nav-link.active.ingresa {
   color: #1b1b1b; }
@@ -258,3 +374,35 @@ header .navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse .navb
       color: aliceblue; }
     .mainIngresa form div .form-check-label {
       color: aliceblue; }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 575px) {
+  main .containerGeneral .containerGrid {
+    display: flex;
+    flex-direction: column; }
+  main .containerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "calidad" "seguridad" "diversion";
+    padding: 1rem; } }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 767px) {
+  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 200%; } }
+
+/* MEDIA QUERY: Dispositivos pantallas medianas 486px---------------------*/
+@media (max-width: 486px) {
+  header .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 100%; }
+  header .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 70%; } }

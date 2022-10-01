@@ -152,11 +152,6 @@ main {
       margin: 0 auto; }
 
 /* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
-@media (max-width: 575px) {
-  .containerGrid {
-    display: flex;
-    flex-direction: column; } }
-
 .mainNosotros {
   width: 100vw; }
   .mainNosotros .card1Container {

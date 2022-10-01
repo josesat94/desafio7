@@ -19,7 +19,7 @@ main .pMain, .mainFaq .pFaq {
 h1 {
   text-shadow: 2px 2px 4px #262626; }
 
-/*PARTIALS*/
+/*PARTIALS y MEDIA QUERYS*/
 body {
   background-color: #bed1d5; }
 
@@ -152,6 +152,17 @@ main {
       margin: 0 auto; }
 
 /* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
+@media (max-width: 575px) {
+  main .containerGeneral .containerGrid {
+    display: flex;
+    flex-direction: column; }
+  main .containerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "calidad" "seguridad" "diversion";
+    padding: 1rem; } }
+
 .mainNosotros {
   width: 100vw; }
   .mainNosotros .card1Container {
@@ -247,5 +258,3 @@ header .navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse .navb
       color: aliceblue; }
     .mainIngresa form div .form-check-label {
       color: aliceblue; }
-
-/*MEDIA QUERYS*/

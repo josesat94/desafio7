@@ -97,7 +97,28 @@ main{
 
 
 /* MEDIA QUERY: Dispositivos pantallas medianas 575px---------------------*/
-
+@media (max-width:575px) {
+    main{
+      .containerGeneral{
+      .containerGrid {
+        display: flex;
+        flex-direction: column;
+        }  
+    }
+    .containerGrid {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        grid-template-areas: 
+          "calidad"
+          "seguridad"
+          "diversion";
+        padding: 1rem;
+      }  
+    }
+    
+    
+    }
 
 
  
